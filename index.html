@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>TLC Taxi Analytics – Power BI Dashboard</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <style>
+    /* ⭐ Change font here */
+    * {
+      font-family: "Poppins", sans-serif;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      background: #0f172a;
+      color: #e5e7eb;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      font-weight: 600;
+      margin-bottom: 0.75rem;
+    }
+
+    p {
+      font-size: 1rem;
+      font-weight: 300;
+      line-height: 1.6;
+    }
+
+    .frame-wrapper {
+      margin-top: 2rem;
+      border-radius: 14px;
+      overflow: hidden;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+    }
+
+    iframe {
+      width: 100%;
+      height: 820px;
+      border: none;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>TLC Taxi Analytics Dashboard</h1>
+    <p>This Power BI dashboard analyzes NYC taxi trip trends using a dimensional model hosted in BigQuery.</p>
+
+    <div class="frame-wrapper">
+      <iframe 
+        width="600" 
+        height="450" 
+        src="https://lookerstudio.google.com/embed/reporting/c20e25f9-9a33-47a6-b7ee-3926cc17777e/page/tEnnC" 
+        frameborder="0" 
+        style="border:0" 
+        allowfullscreen 
+        sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox">
+        </iframe>
+    </div>
+  </div>
+</body>
+</html>
